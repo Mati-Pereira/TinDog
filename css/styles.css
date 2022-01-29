@@ -1,0 +1,246 @@
+#title {
+    background-color: #ff4c68;
+    padding-bottom: 10%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    margin-top: 3rem;
+    color: whitesmoke;
+}
+
+.navbar-nav {
+    gap: 40px;
+}
+
+.container {
+    padding: 3% 10%;
+}
+
+.container-fluid {
+    padding-top: 5%;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.iphone {
+    width: 250px;
+    transform: rotate(25deg);
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 8%;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+@media (max-width:900px) {
+    #title .iphone {
+        transform: rotate(0deg);
+        z-index: 0;
+        position: static;
+        margin-left: 0px;
+    }
+
+    #title h1 {
+        font-size: 2.5rem;
+        width: auto;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .row {
+        --bs-gutter-x: 0rem;
+    }
+
+    #title button {
+        margin: 10px auto;
+    }
+}
+
+/* features */
+
+#features {
+    padding: 100px;
+    text-align: center;
+    border-bottom: #ff4c68 solid 5px;
+    background-color: #fff;
+    position: relative;
+}
+
+#features h3 {
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+#features i {
+    font-size: 3rem;
+    color: rgb(255, 128, 128);
+    padding-bottom: 20px;
+}
+
+#features i:hover {
+    color: #ff4c68;
+}
+
+#features p {
+    color: rgb(156, 156, 156);
+    margin: auto 50px;
+}
+
+#features .col-lg-4 {
+    padding-bottom: 100px;
+}
+
+
+@media (max-width:900px) {
+    #features {
+        padding: 0px;
+        padding-top: 50px;
+    }
+}
+
+/* features */
+
+
+
+/* testimonial section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+#testimonials h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+#testimonials img {
+    border-radius: 100%;
+    width: 10%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+@media (max-width:900px) {
+    #testimonials h2 {
+        font-size: 2.5rem;
+    }
+
+    #testimonials .carousel-item {
+        margin-bottom: 100px;
+    }
+
+}
+
+/* press section */
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#press img {
+    width: 15%;
+    margin: 20px 20px 20px 50px
+}
+
+#press em {
+    margin-left: 20px;
+}
+
+@media (max-width:900px) {
+    #press img {
+        width: 70%;
+        margin: 20px 20px 20px 20px;
+        padding-bottom: 10px;
+    }
+}
+
+/* pricing section */
+
+#pricing {
+    margin: 50px 100px 50px 100px;
+    text-align: center;
+}
+
+#pricing .row {
+    gap: 50px;
+}
+
+#pricing .card-header {
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: rgb(231, 229, 229);
+}
+
+#pricing h2 {
+    font-weight: 700;
+}
+
+#pricing h5 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+#pricing .btn {
+    width: 100%;
+}
+
+@media (max-width:900px) {
+    #pricing {
+        margin: 50px 20px;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 10%;
+    padding-bottom: 10%;
+
+}
+
+#cta h3 {
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 800;
+    padding-bottom: 5%;
+}
+
+#cta button {
+    margin: auto 10px;
+}
+
+
+#footer {
+    text-align: center;
+    padding: 5% 0;
+    background-color: #fff;
+}
+
+#footer i {
+    margin: auto 5px;
+    padding-bottom: 2%;
+}
+
+#footer p {
+    color: rgb(128, 128, 128);
+}
