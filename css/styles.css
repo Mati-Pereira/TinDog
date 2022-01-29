@@ -13,7 +13,8 @@ h1 {
 }
 
 .navbar-nav {
-    gap: 40px;
+    padding: 40px 0;
+    gap: 20px;
 }
 
 .container {
@@ -63,7 +64,7 @@ h1 {
         --bs-gutter-x: 0rem;
     }
 
-    #title button {
+    #title .btn {
         margin: 10px auto;
     }
 }
@@ -225,10 +226,15 @@ h1 {
     padding-bottom: 5%;
 }
 
-#cta button {
-    margin: auto 10px;
+#cta .btn {
+    margin: 10px auto;
 }
 
+@media (max-width:900px) {
+    #cta h3 {
+        font-size: 3rem;
+    }
+}
 
 #footer {
     text-align: center;
