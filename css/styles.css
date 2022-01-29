@@ -13,8 +13,14 @@ h1 {
 }
 
 .navbar-nav {
-    padding: 40px 0;
+    padding: 40px 0 0 0;
     gap: 20px;
+}
+
+.navbar-nav {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .container {
