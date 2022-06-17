@@ -25,6 +25,7 @@ h1 {
 
 .container {
     padding: 3% 10%;
+    min-width: 400px;
 }
 
 .container-fluid {
