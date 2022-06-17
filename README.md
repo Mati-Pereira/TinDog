@@ -1,4 +1,4 @@
-TinDog Starting Files
+# TinDog Starting Files
 
-
-Project to improve in web development
+Making an simple Website with html, css and bootstrap.
+To improve my skills 🙂
