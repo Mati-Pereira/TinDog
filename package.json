@@ -1,4 +1,9 @@
 {
+  "name": "TinDog",
+  "description": "Simple UI of a tinder for dogs",
+  "scripts": {
+    "build": "yarn"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4"
   }
